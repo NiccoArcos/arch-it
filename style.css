@@ -1,0 +1,106 @@
+/* Header */
+/* color para sobre mi, habilidades, portfolio, contacto */
+.nav-link {
+  color: salmon; /* Cambia el color de fondo */
+}
+
+.nav-link:hover{
+  background-color: salmon;
+  color: white;
+}
+
+/* color para home */
+
+.nav-link.nav-link.active{
+  background-color: salmon;
+  
+}
+/* espacios para los elementos del header */
+.container-header{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Hero1 */
+/* boton contactanos */
+.btn-primary{
+  background-color: salmon;
+  border-color:salmon
+}
+
+.btn-primary:hover{
+  background-color: darksalmon;
+  color: white;
+  border-color:darksalmon
+}
+
+/* Hero2 */
+
+.hero2-background {
+  background: linear-gradient(300deg, #fa6f13, #615b97, #ac0730);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.color-titulos{
+  color: white;
+}
+
+/* Habilidades */
+
+.iconos{
+  height: 100px;
+  width: 100px;
+}
+
+/* Portfolio */
+.folio{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.border-img{
+  border-radius: 3%;
+}
+
+
+/* Contacto */
+.contacto-background {
+  background: linear-gradient(300deg, #fa6f13, #615b97, #ac0730);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
