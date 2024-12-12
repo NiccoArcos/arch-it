@@ -42,6 +42,7 @@
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   color: white;
+  
 }
 
 @keyframes gradient-animation {
@@ -70,14 +71,24 @@
 /* Portfolio */
 .folio{
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+ 
 }
 
 
 .border-img{
   border-radius: 3%;
 }
+
+.coint-marketing{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
 
 
 /* Contacto */
